@@ -1,0 +1,217 @@
+/*
+	Importación de Fuente
+*/
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Condensed");
+
+
+/* Config General*/
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+	@-ms-viewport {
+		width: device-width;
+	}
+
+body{
+	font-size: 13.5pt;
+	font-family: sans-serif;
+	background-color: #e3e9dc;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	color: #878e83;
+	letter-spacing: -1px;
+}
+
+h1, h2, h3, h4{
+	color: #007897;
+	font-weight: normal;
+}
+
+h1{
+	text-transform: lowercase;
+}
+
+h2{
+	text-transform: lowercase;
+	font-size: 1.6em;
+	letter-spacing: -1px;
+	margin-bottom: 1em;
+}
+
+h3, h4 {
+	color: #283121;
+	margin-bottom: 0.5em;
+}
+
+h3 {
+	font-size: 1.2em;
+	margin-bottom: 0.8em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 3px solid #0066cc; 
+    
+}
+
+.header{
+    background-color: white ;
+}
+
+body{
+    
+}
+
+ul{
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 1.25rem  !important;
+    text-transform: none !important;
+}
+li{
+    padding-right: 20px;
+    padding-left: 20px;
+   
+}
+
+a:link, a:visited, a:active {
+    padding: 10px, 10px, 10px, 10px;
+    text-decoration:none;
+    color: black;
+}
+
+.menu-content{
+    display: flex;
+    flex-direction: row;
+    background-color:#CFCFD1 ;
+    justify-content: space-around;
+    height: 40px;
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+   
+}
+section{
+    display: flex;
+    flex: 1 1 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.img{
+    width: 400px;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.articulo{
+    display: flex;
+    flex: 1 1 auto;
+
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.formulario div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.formulario{
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 800px;
+}
+
+
+.parrafo{
+    margin-left: 20px;
+    line-height: 2rem;
+    width: 600px;
+    ;
+}
+
+.footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-around;
+}
+
+.buscador{
+    display: flex;
+    flex-direction: column;
+    background-color: #0066cc;
+    height: 150px;
+}
+
+.btn {
+  background-color: #003653; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.separador{
+    background-color: white;
+    border-bottom: 5px solid #0066cc;
+    height: 200px;
+}
+
+select{
+    width: 800px;
+}
